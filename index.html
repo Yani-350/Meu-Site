@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teu Nome - Portfólio Pessoal</title>
+    <style>
+        /* Estilos globais */
+        body {
+            font-family: 'Arial', sans-serif; /* Substituir pela tipografia escolhida */
+            background-color: #f5f5f5; /* Fundo neutro */
+            color: #333; /* Texto em tom neutro */
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #6a0dad; /* Lilás da paleta de cor */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 60px 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        h2 {
+            color: #6a0dad; /* Lilás */
+            font-size: 2.5rem;
+        }
+
+        .services, .portfolio {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .service-item, .portfolio-item {
+            width: 30%;
+            background-color: white;
+            margin-bottom: 20px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border: 2px solid #e0e0e0; /* Cinza Claro */
+        }
+
+        .service-item h3, .portfolio-item h3 {
+            color: #C4A484; /* Dourado Suave */
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .social-media a {
+            margin: 0 10px;
+            color: #C4A484; /* Links em Dourado Suave */
+            text-decoration: none;
+        }
+
+        /* Estilos adicionais */
+        .btn {
+            display: inline-block;
+            background-color: #C4A484; /* Botões em Dourado Suave */
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        .btn:hover {
+            background-color: #6a0dad; /* Efeito hover com lilás */
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Teu Nome - Portfólio Pessoal</h1>
+    <nav>
+        <ul>
+            <li><a href="#about">Sobre Mim</a></li>
+            <li><a href="#portfolio">Portfólio</a></li>
+            <li><a href="#services">Serviços</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contato</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="about" class="container">
+    <h2>Sobre Mim</h2>
+    <p>Sou uma artista e designer de moda e comunicação com uma paixão por criar soluções visuais elegantes e inovadoras. Com uma experiência ampla nas áreas de moda e comunicação gráfica, estou comprometida em ajudar marcas e indivíduos a transmitir suas mensagens com impacto e estilo.</p>
+</section>
+
+<section id="portfolio" class="container">
+    <h2>Portfólio</h2>
+    <div class="portfolio">
+        <div class="portfolio-item">
+            <h3>Projeto 1</h3>
+            <p>Descrição do projeto 1.</p>
+        </div>
+        <div class="portfolio-item">
+            <h3>Projeto 2</h3>
+            <p>Descrição do projeto 2.</p>
+        </div>
+        <div class="portfolio-item">
+            <h3>Projeto 3</h3>
+            <p>Descrição do projeto 3.</p>
+        </div>
+    </div>
+</section>
+
+<section id="services" class="container">
+    <h2>Serviços</h2>
+    <div class="services">
+        <div class="service-item">
+            <h3>Serviços de Moda</h3>
+            <p>Consultoria de estilo, desenvolvimento de coleções, e mais.</p>
+            <a href="#contact" class="btn">Contratar</a>
+        </div>
+        <div class="service-item">
+            <h3>Serviços de Comunicação Gráfica</h3>
+            <p>Criação de conteúdo visual, branding, e design gráfico para marcas e empresas.</p>
+            <a href="#contact" class="btn">Contratar</a>
+        </div>
+    </div>
+</section>
+
+<section id="blog" class="container">
+    <h2>Blog</h2>
+    <p>Partilho insights sobre tendências de moda, design e muito mais. Fica atento aos meus artigos mais recentes!</p>
+</section>
+
+<section id="contact" class="container">
+    <h2>Contato</h2>
+    <p>Se tiveres interesse nos meus serviços ou apenas quiseres conversar, não hesites em entrar em contacto.</p>
+    <p>Email: <a href="mailto:teuemail@exemplo.com">teuemail@exemplo.com</a></p>
+</section>
+
+<footer>
+    <p>Siga-me nas redes sociais:</p>
+    <div class="social-media">
+        <a href="#">Instagram</a> | 
+        <a href="#">TikTok</a> | 
+        <a href="#">LinkedIn</a>
+    </div>
+    <p>&copy; 2024 Teu Nome. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
